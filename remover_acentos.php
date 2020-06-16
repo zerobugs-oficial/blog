@@ -102,3 +102,7 @@ function remover_acentos($string) {
     return strtr($string, $chars);
 
 }
+
+// exemplo de utilização
+
+echo remover_acentos('Olá mundo!'); // -> Ola mundo!
